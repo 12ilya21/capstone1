@@ -1,0 +1,212 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat__container {
+    display: flex;
+    flex-direction: row;
+
+    height: 100vh;
+  
+}
+
+header {
+    border-bottom: 1.5px solid #ccc; 
+    background: linear-gradient(90deg, #FFFFFF 43%, #f74b4b 70%, #0059ab 90%);
+    /*3c43fe*/
+    width: 100vw;
+    height: 100px;
+}
+
+.lank {
+    /* background-color: lightgoldenrodyellow; */
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;    
+}
+.lank__box{
+    height: 90%;
+    width: 90%;
+    border-radius: 6px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.lank__text-box{
+    
+    width: 350px;
+    height: 38px;
+    display: inline-block;
+    text-align: center;
+    font-weight: 400;
+    
+    background: black;
+    border-radius: 10px;
+    /* margin: 30px 0 0px 0; */
+      /*top, right, bottom, left*/
+}
+
+.lank__text{
+    line-height: 100%;
+    font-size: 13px;
+    color: white;
+}
+
+.map{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.bookmark {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 1.5px solid black;  */
+    align-items: center;
+}
+
+.bookmark__box {
+    background-color: #ffffff;
+    /*E9E9E9*/
+    height: 85%;
+    width: 78%;
+    border-radius: 4px;
+    border: 1.5px solid #9a9a9a; 
+    
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+}
+
+.bookmark__text-box{
+    
+    width: 80%;
+    height: 38px;
+    font-weight: 400;
+    
+    display: inline-block;
+    text-align: center;
+    background: #000000;
+    border-radius: 10px;
+    margin: 0 0 0px 0;
+    /*top, right, bottom, left*/
+
+    /* display: flex; */
+
+}
+.bookmark__text{
+  line-height: 100%;
+  font-size: 13px;
+  color: white;
+}
+main {
+    width: 55%;
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+.font {
+    font-family: 'Poppins';
+    font-style: normal;
+}
+
+.header__text-box {
+    display: inline-block;
+    text-align: center;
+    /* height: 50%; */
+    /* border: 1px solid red;  */
+    margin: 0px 0 0 120px;
+    /*top, right, bottom, left*/
+}
+
+.header__k-rebot {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 100%;
+    color: black;
+}
+
+.header__text-box02 {
+    display: inline-block;
+    text-align: center;
+    /* border: 1px solid red;  */
+    margin: 0px 0 0 77%;
+    /*top, right, bottom, left*/
+}
+
+.header__logout {
+    font-size: 14px;
+    /* line-height: 100%; */
+    color: white;
+    font-weight: 500;
+}
+.main__conversation-container{
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+    /* padding: 22px; */
+    /* gap: 10px; */
+
+    width: 100%;
+    height: 170px;
+    /* 텍스트 길이에 따라 늘어나도록 */
+    margin: 30px 0 0 0;
+    /* border: 1px solid red; */
+    border-radius: 14px;
+}
+.main__bot-icon{ 
+    
+    width: 40px;
+    height: 40px;
+    /* object-fit: scale-down; */
+    /* background: url("../robot.png"); */
+    margin: 0px 10px 0px 0px;
+    left: 90%;
+    top: 10%;
+    /* 조건필요->입력한 사람에 따라서 아이콘 위치, 좌우는 동일하나 postion 변경 */
+}
+.main__user-icon{
+    width: 30px;
+    height: 30px;
+    /* object-fit: scale-down; */
+    /* background: url("../robot.png"); */
+    margin: 0px 0px 0px 10px;
+    right: 90%;
+    top: 10%;
+    /* 조건필요->입력한 사람에 따라서 아이콘 위치, 좌우는 동일하나 postion 변경 */
+}
+.main__conversation-box {
+    /* top:50%; */
+
+    box-sizing: border-box;
+
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    padding: 22px;
+    gap: 10px;
+
+    width: 85%;
+    height: 90%;
+    /* 텍스트 길이에 따라 늘어나도록 */
+    /* margin: 30px 0 0 10px; */
+
+
+    background: #FFFFFF;
+    border: 1px solid #9a9a9a;
+    border-radius: 14px;
+
+}

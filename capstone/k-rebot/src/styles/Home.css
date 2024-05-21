@@ -1,0 +1,100 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  background-image: url('./../pngwing.com.png');
+  background-size: cover;
+
+}
+
+.home-left {
+  width: 40vw;
+  height: 100vh;
+  /* background-color: white; */
+  background: linear-gradient(180deg, #dddddd 0%, #d5d5d5 55%, #ffffff00 100%);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.home-left__logo {
+  width: 280px;
+  height: auto;
+  margin-bottom: 120px;
+}
+
+.home-right {
+
+  width: 60vw;
+  height: 100vh;
+  background: linear-gradient(180deg, #151515 45%, #ffffff4c 100%);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 3;
+
+}
+.home-img{
+  display: flex;
+
+  left:100%;
+}
+
+.font {
+  font-family: 'Poppins';
+  font-style: normal;
+}
+
+.home-right__text-box {
+  display: inline-block;
+  /* 텍스트 박스를 인라인 블록 요소로 설정 */
+  text-align: center;
+  /* border: 1px solid red; 텍스트 박스를 시각적으로 확인하기 위해 테두리 추가 */
+  margin: 120px 0 40px 0;
+  /*top, right, bottom, left*/
+}
+
+.home-right__k-rebot {
+  /* border: 1px solid blue; */
+
+
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 100%;
+
+  color: #FFFFFF;
+}
+
+.home-right__button {
+
+  width: 290px;
+  height: 63px;
+  border-radius: 6px;
+
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 38px;
+  margin: 10px;
+  color: #404040;
+  border: none;
+}
+
+
+.home-right__text {
+  /* chatbot website recommending and providing information on restaurants in Korea */
+  position: absolute;
+  width: 1435px;
+  height: 67px;
+  left: 481px;
+  top: 800px;
+
+  font-weight: 275;
+  font-size: 25px;
+  line-height: 100%;
+  /* or 25px */
+
+  color: rgba(0, 0, 0, 0.5);
+}
